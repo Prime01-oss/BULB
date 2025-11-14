@@ -1,0 +1,39 @@
+{
+  "name": "bulb",
+  "version": "1.0.0",
+  "description": "Project Creation Application.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview"
+  },
+  "author": "Priya Gupta",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "electron": "^30.0.3",
+    "electron-vite": "^2.3.0",
+    "postcss": "^8.4.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass-embedded": "^1.93.3",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "@excalidraw/excalidraw": "^0.18.0",
+    "@tiptap/core": "^2.27.1",
+    "@tiptap/extension-font-family": "^2.27.1",
+    "@tiptap/extension-text-style": "^2.27.1",
+    "@tiptap/extension-underline": "^2.27.1",
+    "@tiptap/react": "^2.27.1",
+    "@tiptap/starter-kit": "^2.27.1",
+    "@tldraw/tldraw": "^2.x.x",
+    "immer": "^10.x.x",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.553.0",
+    "use-resize-observer": "^9.1.0"
+  }
+}
